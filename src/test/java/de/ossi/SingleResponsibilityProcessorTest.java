@@ -28,7 +28,6 @@ class SingleResponsibilityProcessorTest {
                 .failed();
         assertThat(compilation)
                 .hadErrorContaining("SingleResponsibility");
-        //TODO asserts
     }
 
     @CsvSource({
